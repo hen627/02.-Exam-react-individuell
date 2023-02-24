@@ -1,0 +1,19 @@
+.Footer--Button {
+    margin-top: 15rem;
+    width: 382px;
+    height: 80px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: white;
+}
+
+.Footer--Button:hover {
+    filter: invert();
+}

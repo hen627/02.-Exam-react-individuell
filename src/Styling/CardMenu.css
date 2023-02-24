@@ -1,0 +1,28 @@
+.CardMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .ListLink {
+    text-decoration: none;
+    padding-top: 1.5rem;
+    margin-bottom: -1.25rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(34, 34, 34, 0.6);
+    border: 1px 1px 1px black;
+  }
+
+  .ListLink:hover{
+    color: black;
+    text-decoration: underline;
+  }
+
+  .LinkStyle {
+    text-decoration: none;
+  }
+

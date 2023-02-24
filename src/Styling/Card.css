@@ -1,0 +1,95 @@
+.Card {
+    background: linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%), #FFAE34;
+    width: 382px;
+    height: 241px;
+    font-family: monospace;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px black;
+    /* margin-bottom: 1.5rem; */
+}
+
+.Chip {
+    margin-bottom: 0.5rem;
+}
+
+.BTC{
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.EVIL{
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.NINJA{
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.BLOCK{
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.Card--Number {
+    font-weight: 400;
+    font-size: 31.75px;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+}
+
+.Card--Holder{
+    font-size: 12px;
+}
+
+.Card--Valid {
+    margin-left: 11.5rem;
+    font-size: 12px;
+    color: (0,0,0,0.8);
+}
+
+.Card--Name {
+    margin-top: -0.75rem;
+    font-size: 18px;
+}
+
+.Card--Date {
+    margin-left: auto;
+    margin-top: -0.75rem;
+    font-size: 18px;
+    color: (0,0,0,0.8);
+
+}
+
+
+#GradientDefault {
+    background: linear-gradient(0deg, #D0D0D0, #D0D0D0),
+    linear-gradient(248.3deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#GradientBTC {
+    background: linear-gradient(0deg, #FFAE34, #FFAE34),
+    linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%);
+
+}
+
+#GradientEVIL {
+    background: linear-gradient(0deg, #F33355, #F33355),
+    linear-gradient(248.3deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#GradientBLOCK {
+    background: linear-gradient(0deg, #8B58F9, #8B58F9),
+    linear-gradient(248.52deg, rgba(0, 0, 0, 0.15) 1.49%, rgba(0, 0, 0, 0) 100%);
+}
+
+#GradientNINJA {
+    background: linear-gradient(0deg, #222222, #222222),
+    linear-gradient(248.3deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+
+    
+}
